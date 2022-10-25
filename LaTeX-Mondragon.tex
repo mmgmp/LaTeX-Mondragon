@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+
+% Paquetes Utilizados
+\usepackage{amsmath} % Formulas Matematicas
+\usepackage[spanish]{babel}	% Idioma Español
+\usepackage{graphicx} % Instertar Imagenes
+\usepackage{fancyhdr}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} % Margenes
+
+
+% Metadatos
+\title{Mi primer documento}
+\date{2018-03-01}
+\author{Mr. LaTeX}
+
+% Estilo del documento
+\pagestyle{fancy}
+\fancyhf{} % Borra es estilo predeterminado
+\rhead[]{\leftmark} % Encabezado derecha
+\lhead[]{\includegraphics[width=2.5cm]{im/logo}} % Imagen de la derecha del encabezado
+\cfoot[\thepage]{\thepage} % Numero de pagina en el centro
+\renewcommand{\headrulewidth}{0pt} % Borra la linea del encabezado
+
+\begin{document}
+	\begin{titlepage} % Portada personalizada													
+		\centering
+		{\includegraphics[width=0.6\textwidth]{im/logo}\par}
+		{\scshape\Large Facultad de XXXXXXXX \par}
+		\vspace{2cm}
+		{\bfseries\LARGE Título del proyecto \par}
+		\vspace{3cm}
+		{\bfseries\Large Autor: \par}
+		{\Large Autor \par}
+		\vfill
+		{\Large Junio 2020 \par}
+	\end{titlepage}
+	\newpage
+	
+	\begin{center} % LABURPENA
+	{\bfseries\Large LABURPENA \par}
+	\end{center}
+	
+	Inserte texto aquí
+	
+	\begin{center} % RESUMEN
+	{\bfseries\Large RESUMEN \par}
+	\end{center}
+
+	Inserte texto aquí
+
+	\begin{center} % ABSTRACT
+	{\bfseries\Large ABSTRACT \par}
+	\end{center}
+
+	Inserte texto aquí
+
+	\newpage
+	\tableofcontents % Índice de capitulos
+	\newpage
+	
+	\listoffigures % Índice de figuras
+	\newpage
+	
+	\listoftables % Índice de tablas
+	\newpage
+	
+	\section{Texto Aqui}
+	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa aliquam quo dolorem quidem fugiat beatae eius qui eaque neque adipisci possimus aliquid cumque placeat saepe explicabo, labore assumenda amet inventore! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa aliquam quo dolorem quidem fugiat beatae eius qui eaque neque adipisci possimus aliquid cumque placeat saepe explicabo, labore assumenda amet inventore!\newline
+	
+	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa aliquam quo dolorem quidem fugiat beatae eius qui eaque neque adipisci possimus aliquid cumque placeat saepe explicabo, labore assumenda amet inv
+
+\end{document}
